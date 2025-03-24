@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 
 const nextConfig : NextConfig = {
+  output: 'export',
+  basePath: '/catalog-app',
+  assetPrefix: '/catalog-app/',
   images: {
     remotePatterns: [
       {
